@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "hadoop!!!"
+date:   2017-06-17 09:41:47 +0530
+categories: hadoop 2.0
+img: Hadoop2.0-ArchSummary.jpg
+categories: [one, two]
+---
+Hadoop 2 Arch Summary Start.
+
+대량의 데이터를 처리하기 위한 `병렬 분산 처리 소프트웨어`
+분산 파일 시스템과의 강한 연계를 통해, 높은 스루풋 처리를 실현하는 분산 처리 소프트웨어
+자바(Java) 기반으로 개발되어 일반적인 서버에서 동작
+서버를 추가하면 용량과 성능이 향상(스케일 아웃, Scale-out)
+관계형 데이터베이스나 검색엔진과는 다름
