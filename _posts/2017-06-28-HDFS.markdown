@@ -3,7 +3,7 @@ layout: post
 title:  "HDFS!!!"
 date:   2017-06-28 17:49:47 +0530
 categories: hadoop 2.0
-img: Hadoop2.0-ArchSummary.jpg
+img: hdfsarchitecture.gif
 categories: [one, two]
 ---
 Hadoop 구성 요소 중 큰 부분을 차지하는 것이 파일 시스템으로, Hadoop에서 처리하는 데이터의 저장 장소를 제공한다. Hadoop 파일 시스템은 분산 파일 시스템이며 HDFS(Hadoop Distributed File System)이라고 부른다. 여러 대의 노드 상에 하나의 파일 시스템 공간을 만든다. 각 노드에는 OS가 제공하는 범용 파일 시스템이 존재하고, HDFS 는 범용 파일 시스템 위에서 동작한다. 지정된 디렉터리 이하를 데이터 영역으로 이용하고, 각 노드 상의 디스크 공간을 합쳐서 하나의 거대한 파일 시스템을 만든다. HDFS를 이용하는 클라이언트는 어떤 데이터가 어떤 노드에 있는지 신경 쓸 필요 없이 파일 시스템 상의 데이터를 읽고 쓸 수 있다. HDFS는 대용량 데이터를 다루기 위해 특화된 아키텍처다. 하나의 파일이 수 기가바이트 이상인 데이터를 고속으로 처리할 수 있다.
