@@ -19,4 +19,28 @@ Hadoop 2 Arch Summary Start.
 - 서버를 추가하면 용량과 성능이 향상(스케일 아웃, Scale-out)
 - 관계형 데이터베이스나 검색엔진과는 다름
 
-## 분산 파일 시스템
+## Hadoop 탄생
+더그 커팅(Doug Cutting)을 중심으로 시작
+![delete gh-pages branch]({{site.baseurl}}/images/hadoop-logo-2.gif)
+
+## RDBMS와 Hadoop 비교
+1. 다루는 데이터 크기
+2. 데이터 조작
+3. 응답 시간(Latency)
+4. 서버 대수와 성능 향상
+5. 데이터구조(구조화 데이터/준 구조화 데이터)
+
+## Hadoop 아키텍쳐
+1. HDFS : Hadoop 분산 파일 시스템
+- HDFS의 편리성
+- 확장성
+- HDFS의 신뢰성
+- 접근 패턴 제한
+
+2. Hadoop MapReduce 프레임워크
+- 여러 사람이 전표 처리를 하는 상황을 예로 들어본다.
+- MapReduce 처리 흐름
+ : Map 처리
+ : Shuffle 처리
+ : Reduce 처리
+- 데이터 변경 관점에서 보는 MapReduce
